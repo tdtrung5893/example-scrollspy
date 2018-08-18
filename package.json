@@ -1,6 +1,6 @@
 {
   "name": "example_scrollspy_by_tdt",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "src/index.js",
   "scripts": {
@@ -8,9 +8,19 @@
     "dev": "node ./node_modules/webpack/bin/webpack.js --mode production --watch --progress --hide-modules",
     "build": "node ./node_modules/webpack/bin/webpack.js --mode production --progress --hide-modules"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tdtrung5893/example-scrollspy.git"
+  },
+  "keywords": [
+    "ScrollSpy",
+    "Javascript",
+    "Learning",
+    "Nodejs"
+  ],
+  "author": "Tran Duc Trung",
+  "license": "MIT",
+  "homepage": "https://github.com/tdtrung5893/example-scrollspy#readme",
   "devDependencies": {
     "uglifyjs-webpack-plugin": "^1.3.0",
     "webpack": "^4.16.5",
