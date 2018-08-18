@@ -1,192 +1,179 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Package</title>
-	<scrrc="javascript/jqueryEasing.js"></script>
-  <style type="text/css">
-    .wrap{
-      width: 940px;
-      margin: auto;
-    }
-    .header{
-      position: fixed;
-      z-index: 99;
-      top: 0;
-      left: 0;
-      height: 50px;
-      background-color: #fff;
-      width: 100%;
-      box-shadow: 0 0 5px red;
-      border-bottom: 1px solid #f6f6f6;
-    }
-    .navigation{
-      float: right;
-    }
-    .navigation li{
-      display: inline;
-    }
-    .navigation a{
-      text-decoration: none;
-      line-height: 50px;
-      text-transform: uppercase;
-      color: #d3d3d3;
-      font-weight: bold;
-      margin-left: 50px;
-      -moz-transition:all 0.4s ease;
-      -webkit-transition:all 0.4s ease;
-      -o-transition:all 0.4s ease;
-      -ms-transition:all 0.4s ease;
-    }
-    .navigation a:hover, .navigation .active{
-      color: #555;
-    }
-    .page{
-      margin-top: 50px;
-    }
-  </style>
-</head>
-<body>
-  <div class="header">
-    <div class="wrap">
-      <ul id="menu" class="menu navigation">
-        <li><a href="#home" class="active" data-scrollspy="#home">home</a></li>
-        <li><a href="#portfolio" data-scrollspy="#portfolio">portfolio</a></li>
-        <li><a href="#service" data-scrollspy="#service">service</a></li>
-        <li><a href="#about" data-scrollspy="#about">about</a></li>
-        <li><a href="#contact" data-scrollspy="#contact">contact</a></li>
-      </ul>
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Package</title>
+    <scrrc="javascript/jqueryEasing.js"></script>
+    <style type="text/css">
+      .wrap{
+        width: 940px;
+        margin: auto;
+      }
+      .header{
+        position: fixed;
+        z-index: 99;
+        top: 0;
+        left: 0;
+        height: 50px;
+        background-color: #fff;
+        width: 100%;
+        box-shadow: 0 0 5px red;
+        border-bottom: 1px solid #f6f6f6;
+      }
+      .navigation{
+        float: right;
+      }
+      .navigation li{
+        display: inline;
+      }
+      .navigation a{
+        text-decoration: none;
+        line-height: 50px;
+        text-transform: uppercase;
+        color: #d3d3d3;
+        font-weight: bold;
+        margin-left: 50px;
+      }
+      .navigation a:hover, .navigation .active{
+        color: #555;
+      }
+      .scrollspy{
+        margin-top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="wrap">
+        <ul id="menu" class="menu navigation">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#post">Post</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
     </div>
-  </div>
-  <div class="main">
-    <div class="wrap">
-      <section class="page" id="home">
-        <div>home</div>
-        <div>home</div>
-        <div>home</div>
-        <div>home</div>
-        <div>home</div>
-        <div>home</div>
-        <div>home</div>
-        <div>home</div>
-        <div>home</div>
-        <div>home</div>
-        <div>home</div>
-        <div>home</div>
-        <div>home</div>
-        <div>home</div>
-        <div>home</div>
-        <div>home</div>
-        <div>home</div>
-      </section>
-      <section class="page" id="portfolio">
-        <div>portfolio</div>
-        <div>portfolio</div>
-        <div>portfolio</div>
-        <div>portfolio</div>
-        <div>portfolio</div>
-        <div>portfolio</div>
-        <div>portfolio</div>
-        <div>portfolio</div>
-        <div>portfolio</div>
-        <div>portfolio</div>
-        <div>portfolio</div>
-        <div>portfolio</div>
-        <div>portfolio</div>
-        <div>portfolio</div>
-        <div>portfolio</div>
-        <div>portfolio</div>
-      </section>
-      <section class="page" id="service">
-        <div>service</div>
-        <div>service</div>
-        <div>service</div>
-        <div>service</div>
-        <div>service</div>
-        <div>service</div>
-        <div>service</div>
-        <div>service</div>
-        <div>service</div>
-        <div>service</div>
-        <div>service</div>
-        <div>service</div>
-        <div>service</div>
-        <div>service</div>
-        <div>service</div>
-        <div>service</div>
-        <div>service</div>
-        <div>service</div>
-        <div>service</div>
-        <div>service</div>
-      </section>
-      <section class="page" id="about">
-        <div>about</div>
-        <div>about</div>
-        <div>about</div>
-        <div>about</div>
-        <div>about</div>
-        <div>about</div>
-        <div>about</div>
-        <div>about</div>
-        <div>about</div>
-        <div>about</div>
-        <div>about</div>
-        <div>about</div>
-        <div>about</div>
-        <div>about</div>
-        <div>about</div>
-        <div>about</div>
-        <div>about</div>
-        <div>about</div>
-        <div>about</div>
-        <div>about</div>
-        <div>about</div>
-        <div>about</div>
-        <div>about</div>
-        <div>about</div>
-        <div>about</div>
-      </section>
-      <section class="page" id="contact">
-        <div>contact</div>
-        <div>contact</div>
-        <div>contact</div>
-        <div>contact</div>
-        <div>contact</div>
-        <div>contact</div>
-        <div>contact</div>
-        <div>contact</div>
-        <div>contact</div>
-        <div>contact</div>
-        <div>contact</div>
-        <div>contact</div>
-        <div>contact</div>
-        <div>contact</div>
-        <div>contact</div>
-        <div>contact</div>
-        <div>contact</div>
-        <div>contact</div>
-        <div>contact</div>
-        <div>contact</div>
-        <div>contact</div>
-        <div>contact</div>
-        <div>contact</div>
-        <div>contact</div>
-        <div>contact</div>
-        <div>contact</div>
-      </section>
+    <div class="main">
+      <div class="wrap">
+        <section class="scrollspy" id="home">
+          <div>home</div>
+          <div>home</div>
+          <div>home</div>
+          <div>home</div>
+          <div>home</div>
+          <div>home</div>
+          <div>home</div>
+          <div>home</div>
+          <div>home</div>
+          <div>home</div>
+          <div>home</div>
+          <div>home</div>
+          <div>home</div>
+          <div>home</div>
+          <div>home</div>
+          <div>home</div>
+          <div>home</div>
+        </section>
+        <section class="scrollspy" id="post">
+          <div>portfolio</div>
+          <div>portfolio</div>
+          <div>portfolio</div>
+          <div>portfolio</div>
+          <div>portfolio</div>
+          <div>portfolio</div>
+          <div>portfolio</div>
+          <div>portfolio</div>
+          <div>portfolio</div>
+          <div>portfolio</div>
+          <div>portfolio</div>
+          <div>portfolio</div>
+          <div>portfolio</div>
+          <div>portfolio</div>
+          <div>portfolio</div>
+          <div>portfolio</div>
+        </section>
+        <section class="scrollspy" id="service">
+          <div>service</div>
+          <div>service</div>
+          <div>service</div>
+          <div>service</div>
+          <div>service</div>
+          <div>service</div>
+          <div>service</div>
+          <div>service</div>
+          <div>service</div>
+          <div>service</div>
+          <div>service</div>
+          <div>service</div>
+          <div>service</div>
+          <div>service</div>
+          <div>service</div>
+          <div>service</div>
+          <div>service</div>
+          <div>service</div>
+          <div>service</div>
+          <div>service</div>
+        </section>
+        <section class="scrollspy" id="about">
+          <div>about</div>
+          <div>about</div>
+          <div>about</div>
+          <div>about</div>
+          <div>about</div>
+          <div>about</div>
+          <div>about</div>
+          <div>about</div>
+          <div>about</div>
+          <div>about</div>
+          <div>about</div>
+          <div>about</div>
+          <div>about</div>
+          <div>about</div>
+          <div>about</div>
+          <div>about</div>
+          <div>about</div>
+          <div>about</div>
+          <div>about</div>
+          <div>about</div>
+          <div>about</div>
+          <div>about</div>
+          <div>about</div>
+          <div>about</div>
+          <div>about</div>
+        </section>
+        <section class="scrollspy" id="contact">
+          <h1>Contact</h1>
+          <h1>Contact</h1>
+          <h1>Contact</h1>
+          <h1>Contact</h1>
+          <h1>Contact</h1>
+          <h1>Contact</h1>
+          <h1>Contact</h1>
+          <h1>Contact</h1>
+          <h1>Contact</h1>
+          <h1>Contact</h1>
+          <h1>Contact</h1>
+          <h1>Contact</h1>
+          <h1>Contact</h1>
+          <h1>Contact</h1>
+          <h1>Contact</h1>
+          <h1>Contact</h1>
+          <h1>Contact</h1>
+          <h1>Contact</h1>
+          <h1>Contact</h1>
+        </section>
+      </div>
     </div>
-  </div>
-  <script src="../src/index.js"></script>
-  <script src="../src/scrollspy.js"></script>
+  <script src="../dist/bundle.js"></script>
   <script type="text/javascript">
     window.onload = function(){
       scrollSpy('#menu', {
-        offset: 150,
+        offset: 100,
         menu_target: '#menu > li > a',
-        section: '.page',
+        section: '.scrollspy',
         menu_active: 'active',
       })
     }
   </script>
-</body>
+  </body>
 </html>
-	
